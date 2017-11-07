@@ -63,7 +63,7 @@ defmodule Params.Schema do
     quote do
       use Ecto.Schema
       import Ecto.Changeset
-      @primary_key {:_id, :binary_id, autogenerate: false}
+      @primary_key false
     end
   end
 
